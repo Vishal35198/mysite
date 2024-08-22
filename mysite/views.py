@@ -19,6 +19,7 @@ def about(request):
 
 def getname(request):
     text = request.GET.get('textarea','default')
+#--------------------------------------------------------
 
     return HttpResponse(f" <a href = '/'> {text} <a/>")
 
