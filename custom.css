@@ -1,0 +1,11 @@
+/* Increase the height of the tab bar */
+.title-bar {
+    height: 60px;
+    /* Adjust height as needed */
+}
+
+/* Increase the height of tabs */
+.tab {
+    height: 40px;
+    /* Adjust height as needed */
+}
